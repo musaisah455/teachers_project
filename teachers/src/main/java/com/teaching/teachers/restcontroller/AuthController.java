@@ -5,7 +5,7 @@ import com.teaching.teachers.dtos.AuthenticationResponse;
 import com.teaching.teachers.dtos.RegisterRequest;
 import com.teaching.teachers.entities.User;
 import com.teaching.teachers.repositories.UserRepository;
-import com.teaching.teachers.security.JwtService;
+import com.teaching.teachers.services.JwtService;
 import com.teaching.teachers.user.Role;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

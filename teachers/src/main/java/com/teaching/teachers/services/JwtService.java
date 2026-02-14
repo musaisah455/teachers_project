@@ -1,4 +1,4 @@
-package com.teaching.teachers.security;
+package com.teaching.teachers.services;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

@@ -2,7 +2,7 @@ package com.teaching.teachers.restcontroller;
 
 import com.teaching.teachers.dtos.TeacherRequestDTO;
 import com.teaching.teachers.dtos.TeacherResponseDTO;
-import com.teaching.teachers.service.TeacherService;
+import com.teaching.teachers.services.TeacherService;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

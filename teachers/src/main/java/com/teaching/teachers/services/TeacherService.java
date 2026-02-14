@@ -1,4 +1,4 @@
-package com.teaching.teachers.service;
+package com.teaching.teachers.services;
 
 import com.teaching.teachers.dtos.TeacherRequestDTO;
 import com.teaching.teachers.dtos.TeacherResponseDTO;

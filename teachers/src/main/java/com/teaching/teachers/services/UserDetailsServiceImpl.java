@@ -1,4 +1,4 @@
-package com.teaching.teachers.service;
+package com.teaching.teachers.services;
 
 import com.teaching.teachers.entities.User;
 import com.teaching.teachers.repositories.UserRepository;

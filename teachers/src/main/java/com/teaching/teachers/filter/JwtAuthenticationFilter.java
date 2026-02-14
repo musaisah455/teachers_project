@@ -1,5 +1,6 @@
-package com.teaching.teachers.security;
+package com.teaching.teachers.filter;
 
+import com.teaching.teachers.services.JwtService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
