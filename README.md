@@ -1,2 +1,0 @@
-# teachers_project
-hello
