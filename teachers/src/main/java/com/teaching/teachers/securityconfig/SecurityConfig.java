@@ -1,4 +1,4 @@
-package com.teaching.teachers.security;
+package com.teaching.teachers.securityconfig;
 
 import com.teaching.teachers.filter.JwtAuthenticationFilter;
 import lombok.RequiredArgsConstructor;
