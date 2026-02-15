@@ -34,8 +34,10 @@ public class AuthController {
 
         userRepository.save(user);
 
-        var jwt = jwtService.generateToken(user);
-        return ResponseEntity.ok(new AuthenticationResponse(jwt));
+        return ResponseEntity.ok(new AuthenticationResponse("User registered successfully"));
+
+        //var jwt = jwtService.generateToken(user);
+        // /return ResponseEntity.ok(new AuthenticationResponse(jwt));
     }
 
     @PostMapping("/login")
