@@ -9,7 +9,7 @@ A secure RESTful Spring Boot application for managing teachers' information (fir
 
 ## Table of Contents
 
-- [Features & Technologies](#-technologies)
+- [Technologies/Features](#-technologies-/-features)
 - [Installation & Setup](#-installation--setup)
 - [Running the Application](#-running-the-application)
 - [Teacher API Endpoints](#-api-endpoints)
@@ -17,7 +17,7 @@ A secure RESTful Spring Boot application for managing teachers' information (fir
 - [Contributing](#-contributing)
 - [License](#-license)
 
-## Technologies
+## Technologies/Features
 
 - Java 17 or Higher version
 - Spring Boot 3.2+
