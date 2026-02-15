@@ -8,6 +8,7 @@ import com.teaching.teachers.repositories.UserRepository;
 import com.teaching.teachers.services.JwtService;
 import com.teaching.teachers.user.Role;
 import lombok.RequiredArgsConstructor;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -34,7 +35,9 @@ public class AuthController {
 
         userRepository.save(user);
 
-        return ResponseEntity.ok(new AuthenticationResponse("User registered successfully"));
+        return new ResponseEntity<>(HttpStatus.CREATED);
+
+        //return ResponseEntity.ok(new AuthenticationResponse("User registered successfully"));
 
         //var jwt = jwtService.generateToken(user);
         // /return ResponseEntity.ok(new AuthenticationResponse(jwt));
