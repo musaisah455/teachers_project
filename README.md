@@ -64,13 +64,13 @@ Application starts at: http://localhost:8080/api/teachers
 ## Teacher API Endpoints
 
 ### Method----------Endpoint--------------Description-----------Auth-required?
-#### POST----------------/auth/register------------Register new user----------No
+#### POST----------------/auth/register------------Register new user------------No
 #### POST----------------/auth/login----------------Login & get JWT------------No
-#### POST----------------/api/teachers-------------Create new teacher-------Yes
+#### POST----------------/api/teachers-------------Create new teacher----------Yes
 #### GET------------------/api/teachers-------------Get all teachers------------Yes
-#### GET-----------------/api/teachers/{id}--------Get teacher by ID----------Yes
-#### PUT-------------------/teachers/{id}------------Update teacher------------Yes
-#### DELETE-------------/teachers/{id}------------Delete teacher-------------Yes
+#### GET-----------------/api/teachers/{id}--------Get teacher by ID------------Yes
+#### PUT-----------------/teachers/{id}-----------Update teacher---------------Yes
+#### DELETE-------------/teachers/{id}-------------Delete teacher---------------Yes
 
 ## Authentication
 
