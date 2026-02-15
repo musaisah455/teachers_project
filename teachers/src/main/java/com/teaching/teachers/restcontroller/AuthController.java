@@ -15,6 +15,8 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Objects;
+
 @RestController
 @RequestMapping("/auth")
 @RequiredArgsConstructor
@@ -26,16 +28,18 @@ public class AuthController {
     private final JwtService jwtService;
 
     @PostMapping("/register")
-    public ResponseEntity<AuthenticationResponse> register(@RequestBody RegisterRequest request) {
+    public ResponseEntity<User> register(@RequestBody RegisterRequest request) {
         var user = User.builder()
                 .username(request.getUsername())
                 .password(passwordEncoder.encode(request.getPassword()))
                 .role(request.getRole() != null ? request.getRole() : Role.USER)
                 .build();
 
-        userRepository.save(user);
+        //userRepository.save(user);
 
-        return new ResponseEntity<>(HttpStatus.CREATED);
+        //System.out.println(user);
+
+       return new ResponseEntity<>(userRepository.save(user), HttpStatus.CREATED);
 
         //return ResponseEntity.ok(new AuthenticationResponse("User registered successfully"));
 
