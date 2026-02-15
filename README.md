@@ -38,7 +38,7 @@ A secure RESTful Spring Boot application for managing teachers' information (fir
 1. Clone the repository
 
 ```bash
-git clone https://github.com/musaisah355/teachers-project.git
+git clone https://github.com/musaisah455/teacher-project.git
 cd teacher-project
 ```
 
