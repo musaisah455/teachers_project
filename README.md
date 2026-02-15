@@ -6,9 +6,10 @@ A secure RESTful Spring Boot application for managing teachers' information (fir
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-F2F4F9?style=for-the-badge&logo=spring-boot)
 ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)  <!-- change if using H2 -->
+
 ## Table of Contents
 
-- [Technologies](#-technologies)
+- [Features & Technologies](#-technologies)
 - [Installation & Setup](#-installation--setup)
 - [Running the Application](#-running-the-application)
 - [Teacher API Endpoints](#-api-endpoints)
