@@ -29,7 +29,7 @@ public class AuthController {
         var user = User.builder()
                 .username(request.getUsername())
                 .password(passwordEncoder.encode(request.getPassword()))
-                .role(request.getRole() != null ? request.getRole() : Role.ROLE_USER)
+                .role(request.getRole() != null ? request.getRole() : Role.USER)
                 .build();
 
         userRepository.save(user);
