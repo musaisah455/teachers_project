@@ -24,7 +24,7 @@ A secure RESTful Spring Boot application for managing teachers' information (fir
 - Request & Response DTOs
 - Bean Validation (`@NotBlank`, `@Size`)
 - Global exception handling
-- PostgreSQL
+- PostgreSQL Which is a Relational Database
 - Role-based access (USER / ADMIN)
 
 ## Technologies
