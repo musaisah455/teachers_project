@@ -8,7 +8,6 @@ A secure RESTful Spring Boot application for managing teachers' information (fir
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)  <!-- change if using H2 -->
 ## Table of Contents
 
-- [Features](#-features)
 - [Technologies](#-technologies)
 - [Installation & Setup](#-installation--setup)
 - [Running the Application](#-running-the-application)
@@ -17,24 +16,17 @@ A secure RESTful Spring Boot application for managing teachers' information (fir
 - [Contributing](#-contributing)
 - [License](#-license)
 
-## Features
+## Technologies
 
-- CRUD operations for teachers
-- JWT-based authentication & authorization (register/login)
+- Java 17 or Higher version
+- Spring Boot 3.2+
+- Spring Security + JWT (register/login)
+- Spring Data JPA
+- A Relational Database (PostgreSQL)
+- Lombok
 - Request & Response DTOs
 - Bean Validation (`@NotBlank`, `@Size`)
 - Global exception handling
-- PostgreSQL Which is a Relational Database
-- Role-based access (USER / ADMIN)
-
-## Technologies
-
-- Java 17+
-- Spring Boot 3.2+
-- Spring Security + JWT
-- Spring Data JPA
-- PostgreSQL
-- Lombok
 - Jakarta Validation
 - Maven
 - Git
