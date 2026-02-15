@@ -63,7 +63,7 @@ Application starts at: http://localhost:8080/api/teachers
 
 ## Teacher API Endpoints
 
-### Method--------------Endpoint----------------Description--------------Auth-required?
+### Method----------Endpoint--------------Description-----------Auth-required?
 #### POST----------------/auth/register------------Register new user----------No
 #### POST----------------/auth/login----------------Login & get JWT------------No
 #### POST----------------/api/teachers-------------Create new teacher-------Yes
