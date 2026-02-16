@@ -80,7 +80,7 @@ Application starts at: http://localhost:8080/api/teachers
 
 }
 
-### Login with the username and password of the registered user and get JWT token
+### Login with the username and password of the request body of the registered user and get JWT token
 
 #### POST http://localhost:8080/auth/login
 {
