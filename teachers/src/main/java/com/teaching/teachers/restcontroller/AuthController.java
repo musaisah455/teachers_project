@@ -39,7 +39,7 @@ public class AuthController {
 
         //System.out.println(user);
 
-       return new ResponseEntity<>(userRepository.save(user), HttpStatus.CREATED);
+        return new ResponseEntity<>(userRepository.save(user), HttpStatus.CREATED);
 
         //return ResponseEntity.ok(new AuthenticationResponse("User registered successfully"));
 
