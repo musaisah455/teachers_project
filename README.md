@@ -1,6 +1,6 @@
 # Teacher Management API Project
 
-A secure RESTful Spring Boot application for managing teachers' information (first name, last name, address, school) with JWT authentication, input validation, DTO pattern.
+A secure RESTful Spring Boot application for managing teachers' information (first name, last name, address, school) with JWT authentication, input validation, DTO pattern and MapStruct
 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-F2F4F9?style=for-the-badge&logo=spring-boot)
@@ -30,6 +30,7 @@ A secure RESTful Spring Boot application for managing teachers' information (fir
 - Global exception handling
 - Jakarta Validation
 - Maven
+- MapStruct
 - Git
 - IDE: IntelliJ IDEA / VS Code / Eclipse
 
